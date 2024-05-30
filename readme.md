@@ -7,7 +7,7 @@ This Python script provides a user-friendly interface for performing homology se
 - **BLAST+ Integration:** Leverages BLAST+ to search against various biological sequence databases.
 - **Biopython Compatibility:** Utilizes Biopython's SeqIO module for efficient sequence handling.
 - **User-Friendly Input:** Accepts command-line arguments for file paths, BLAST program, e-value threshold, database selection, and output filename.
-- **Detailed Report Generation:** Creates a comprehensive report including search parameters and significant hits for each query sequence.
+- **Detailed Report Generation:** Creates a report including search parameters and significant hits for each query sequence.
 - **Clear Output Formatting:** Saves the report in a well-formatted text file for convenient review.
 
 ## Installation
