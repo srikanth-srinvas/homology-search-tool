@@ -1,8 +1,7 @@
 # Homology Search Tool
 
 
-![alt text](image.png)
-
+![alt text](image-1.png)
 
 This Python script performs homology searches using BLAST+ and Biopython. It analyzes your FASTA file containing query sequences, generates a report summarizing the results, and saves it to a text file.
 
