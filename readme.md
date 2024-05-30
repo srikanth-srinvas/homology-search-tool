@@ -1,6 +1,6 @@
 # Homology Search Tool
 
-This Python script provides a user-friendly interface for performing homology searches using BLAST+ and Biopython. It analyzes your FASTA file containing query sequences, generates a detailed report summarizing the results, and saves it to a text file for easy interpretation.
+This Python script provides a user-friendly interface for performing homology searches using BLAST+ and Biopython. It analyzes your FASTA file containing query sequences, generates a report summarizing the results, and saves it to a text file for easy interpretation.
 
 ## Features
 
