@@ -1,6 +1,10 @@
 # Homology Search Tool
 
-This Python script provides a user-friendly interface for performing homology searches using BLAST+ and Biopython. It analyzes your FASTA file containing query sequences, generates a report summarizing the results, and saves it to a text file for easy interpretation.
+
+![alt text](image.png)
+
+
+This Python script performs homology searches using BLAST+ and Biopython. It analyzes your FASTA file containing query sequences, generates a report summarizing the results, and saves it to a text file.
 
 ## Features
 
@@ -58,9 +62,6 @@ This command will run a BLASTP search against the SwissProt protein database wit
 - **Database Installation:** Download and install the specific BLAST+ databases you want to use from the [NCBI FTP server](https://www.ncbi.nlm.nih.gov/blast/).
 - **Environment Variable (Optional):** Consider adding the BLAST+ executables directory to your system's PATH environment variable for easier command-line access.
 
-## Contributing
-
-Feel free to submit pull requests or report any issues you encounter. We appreciate your contributions to this project!
 
 ---
 
