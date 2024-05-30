@@ -8,7 +8,6 @@ This Python script provides a user-friendly interface for performing homology se
 - **Biopython Compatibility:** Utilizes Biopython's SeqIO module for efficient sequence handling.
 - **User-Friendly Input:** Accepts command-line arguments for file paths, BLAST program, e-value threshold, database selection, and output filename.
 - **Detailed Report Generation:** Creates a report including search parameters and significant hits for each query sequence.
-- **Clear Output Formatting:** Saves the report in a well-formatted text file for convenient review.
 
 ## Installation
 
@@ -26,16 +25,16 @@ Install BLAST+ on your system following the appropriate method for your operatin
 
 ### Clone or Download
 
-Clone this repository using Git or download the script file (`homology_search.py`).
+Clone this repository using Git or download the script file (`main.py`).
 
 ## Usage
 
-1. **Save the Script:** Save the script file (`homology_search.py`) in a directory on your system.
+1. **Save the Script:** Save the script file (`main.py`) in a directory on your system.
 2. **Open Terminal/Command Prompt:** Navigate to the directory where you saved the script.
 3. **Run the Script:** Execute the script using the following command, replacing placeholders with your actual values:
 
 ```bash
-python homology_search.py -f <fasta_file_path> -o <output_report_filename> [optional arguments]
+python main.py -f <fasta_file_path> -o <output_report_filename> [optional arguments]
 ```
 
 ## Arguments
@@ -49,7 +48,7 @@ python homology_search.py -f <fasta_file_path> -o <output_report_filename> [opti
 ## Example
 
 ```bash
-python homology_search.py -f my_sequences.fasta -o blast_results.txt -p blastp -e 0.01 -d swissprot
+python main.py -f my_sequences.fasta -o blast_results.txt -p blastp -e 0.01 -d swissprot
 ```
 
 This command will run a BLASTP search against the SwissProt protein database with an e-value threshold of `0.01` and save the results to a file named `blast_results.txt`.
@@ -62,10 +61,6 @@ This command will run a BLASTP search against the SwissProt protein database wit
 ## Contributing
 
 Feel free to submit pull requests or report any issues you encounter. We appreciate your contributions to this project!
-
-## License
-
-This project is licensed under the MIT License (see `LICENSE` file for details).
 
 ---
 
